@@ -25,14 +25,14 @@
 5、尽情享用.......
 
 # 参考技术文档
-A、通用Mapper文档 https://mapperhelper.github.io/docs/7.use330/
-B、MyBatis查看官方中文文档 http://www.mybatis.org/mybatis-3/zh/index.html
-C、MyBatis 分页插件 PageHelper https://pagehelper.github.io/
-D、Druid Spring Boot Starter  https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter/
-E、Fastjson https://github.com/Alibaba/fastjson/wiki/%E9%A6%96%E9%A1%B5
-F、前端参数签名怎么生成，建议使用 JWT https://www.jianshu.com/p/576dbf44b2ae
-G、Hutool http://hutool.mydoc.io/
-H、通用mapper更新地址 https://github.com/abel533/Mapper/wiki/changelog
+[A、通用Mapper文档] (https://mapperhelper.github.io/docs/7.use330/)
+[B、MyBatis查看官方中文文档 ](http://www.mybatis.org/mybatis-3/zh/index.html)
+[C、MyBatis 分页插件 PageHelper](https://pagehelper.github.io/)
+[D、Druid Spring Boot Starter](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter/)
+[E、Fastjson](https://github.com/Alibaba/fastjson/wiki/%E9%A6%96%E9%A1%B5)
+[F、前端参数签名怎么生成，建议使用 JWT](https://www.jianshu.com/p/576dbf44b2ae)
+[G、Hutool http://hutool.mydoc.io/)
+[H、通用mapper更新地址]( https://github.com/abel533/Mapper/wiki/changelog)
 
 # 开发建议
 1、表名，建议使用小写，多个单词使用下划线拼接
@@ -49,6 +49,8 @@ H、通用mapper更新地址 https://github.com/abel533/Mapper/wiki/changelog
 
 #温馨提示
 欢迎广大码农clone使用、水平有限，框架中如有不足还望轻喷，同时也欢迎大家积极贡献，打造一个更加完美的开源微服务框架！
-项目地址 https://github.com/actor-t/springboot-mapper-redis
+[项目地址](https://github.com/actor-t/springboot-mapper-redis)
+如有疑虑欢迎咨询qq：2411559022
 
-#如果您觉得可以，来一支煊赫门抽抽哈哈
+#如果您觉得可以，来一支1916抽抽哈哈
+<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
