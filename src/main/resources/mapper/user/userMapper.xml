@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tys.pyx.user.dao.UserMapper">
+  <resultMap id="BaseResultMap" type="com.tys.pyx.user.model.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="real_name" jdbcType="VARCHAR" property="realName" />
+    <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="sex" jdbcType="CHAR" property="sex" />
+    <result column="role" jdbcType="VARCHAR" property="role" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="photourl" jdbcType="VARCHAR" property="photourl" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="user_type" jdbcType="CHAR" property="userType" />
+    <result column="edit_date" jdbcType="TIMESTAMP" property="editDate" />
+    <result column="area_code" jdbcType="VARCHAR" property="areaCode" />
+    <result column="id_card_type" jdbcType="CHAR" property="idCardType" />
+    <result column="id_card_number" jdbcType="VARCHAR" property="idCardNumber" />
+  </resultMap>
+</mapper>
