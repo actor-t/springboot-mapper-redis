@@ -36,11 +36,7 @@ public class InterceptorConfigurerAdapter implements WebMvcConfigurer {
 		// excludePathPatterns 排除路径
 		registry.addInterceptor(getSingInterceptor()).addPathPatterns("/**").excludePathPatterns("/picture/**");
 		registry.addInterceptor(getSessionInterceptor()).addPathPatterns("/**")
-				.excludePathPatterns("/enum/type/queryAllEnums").excludePathPatterns("/picture/**")
-				.excludePathPatterns("/enum/type/queryCodeEnums");
-		// .excludePathPatterns("/user/**");
-		// 有多个拦截器继续add进去，这里的拦截器只有经过DispatcherServlet 的请求，才会走拦截器链，默认不拦截静态资源
-		// registry.addInterceptor(new
-		// LoginInterceptor()).addPathPatterns("/**");
+				.excludePathPatterns("/enum/type/queryAllEnums");
+	
 	}
 }

@@ -44,8 +44,6 @@ public class MybatisConfig {
 			org.apache.ibatis.session.Configuration gloablConfiguration) throws Exception {
 		SqlSessionFactoryBean factory = new SqlSessionFactoryBean();
 		factory.setDataSource(dataSource);
-		// factory.setTypeAliasesPackage(BASE_PACKAGE + ".**.model" );
-
 		// 配置分页插件，详情请查阅官方文档
 		PageHelper pageHelper = new PageHelper();
 		Properties properties = new Properties();
@@ -80,10 +78,7 @@ public class MybatisConfig {
 		// 配置通用Mapper，详情请查阅官方文档
 		Properties properties = new Properties();
 		properties.setProperty("mappers", MAPPER_INTERFACE_REFERENCE);
-		properties.setProperty("notEmpty", "false");// insert、update是否判断字符串类型!=''
-													// 即 test="str !=
-													// null"表达式内是否追加 and str !=
-													// ''
+		properties.setProperty("notEmpty", "false");
 		properties.setProperty("IDENTITY", "MYSQL");
 		mapperScannerConfigurer.setProperties(properties);
 

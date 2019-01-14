@@ -1,13 +1,9 @@
-#内置tomcat配置的修改
 server:
   port: 8010
   tomcat:
     uri-encoding: UTF-8
     max-connections: 2000
     max-http-post-size: 0
-    #不限制大小
-#所有环境通用的配置，放在这里
-#404 交给异常处理器处理
 spring:
   profiles:
     active: dev
@@ -28,21 +24,14 @@ spring:
     multipart:
       max-file-size: 45Mb
       max-request-size: 45Mb
-
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
-#打印sql日志及其存储日志
 logging:
   level:
     com.tys.pyx: debug
     org.springframework.cache: trace
-    #设置log文件输出地址
     root: INFO
-#通用mapper配置
 mapper:
-  #delete 和 deleteByExample 都必须设置查询条件才能删除
   safe-delete: true
   safe-update: true
