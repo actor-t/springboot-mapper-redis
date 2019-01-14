@@ -58,10 +58,6 @@ public class MybatisConfig {
 		CameHumpInterceptor cameHumpInterceptor = new CameHumpInterceptor();
 		// 添加插件
 		factory.setPlugins(new Interceptor[] { pageHelper, cameHumpInterceptor });
-
-		// 添加XML目录
-		// 如果没有此目录的话，后续初始化SqlSessionFactory会报错，这里参考MybatisProperties的代码
-		// 这样纯使用注解，没有mapper目录也可以了
 		org.springframework.core.io.Resource[] resources = null;
 		if (!ObjectUtils.isEmpty(resources = resolveMapperLocations("classpath:mapper/**/*.xml"))) {
 			factory.setMapperLocations(resources);

@@ -32,8 +32,6 @@ public class InterceptorConfigurerAdapter implements WebMvcConfigurer {
 	 */
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
-		// addPathPatterns 添加路径
-		// excludePathPatterns 排除路径
 		registry.addInterceptor(getSingInterceptor()).addPathPatterns("/**").excludePathPatterns("/picture/**");
 		registry.addInterceptor(getSessionInterceptor()).addPathPatterns("/**")
 				.excludePathPatterns("/enum/type/queryAllEnums");

@@ -5,6 +5,6 @@ package com.open.boot.common;
  */
 public final class CommonConstant {
 	public static final String TOKEN_ID = "token";// token
-	public static final String TOKEN_SERECT = "zywkykt";// 秘钥
+	public static final String TOKEN_SERECT = "actor";// 秘钥
 	public static final String PICTURE_URL = "E://zywk//";
 }

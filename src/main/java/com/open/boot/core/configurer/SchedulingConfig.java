@@ -23,7 +23,6 @@ public class SchedulingConfig implements SchedulingConfigurer {
 	@Override
 	public void configureTasks(ScheduledTaskRegistrar taskRegistrar) {
 		// TODO Auto-generated method stub
-		// 设定一个长度10的定时任务线程池
 		taskRegistrar.setScheduler(Executors.newScheduledThreadPool(10));
 	}
 }

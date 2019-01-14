@@ -41,7 +41,6 @@ public class ServletFilter implements Filter {
     @Override
     public void destroy() {
         // TODO Auto-generated method stub
-//		System.out.println("过滤器被销毁。");
     }
 
 }
