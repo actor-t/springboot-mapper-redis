@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.tys</groupId>
-	<artifactId>pyx</artifactId>
+	<groupId>com.open</groupId>
+	<artifactId>boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>pyx</name>
-	<description>便易行</description>
+	<name>openboot</name>
+	<description>actor-t</description>
 
 	<!-- Inherit defaults from Spring Boot -->
 	<parent>
@@ -27,11 +27,6 @@
 	</properties>
 
 	<dependencies>
-		<!--Spring Boot依赖 -->
-		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-web</artifactId> 
-			</dependency> -->
-		<!--springboot的高级组件会自动引用基础的组件，像spring-boot-starter-websocket就引入了spring-boot-starter-web和spring-boot-starter，所以不要重复引入。 -->
-		<!--websocket -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>

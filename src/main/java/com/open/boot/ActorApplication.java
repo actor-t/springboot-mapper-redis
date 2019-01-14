@@ -16,10 +16,10 @@ import com.open.boot.core.context.SpringContextUtil;
 @ServletComponentScan
 @EnableCaching
 @EnableScheduling
-public class PyxApplication {
+public class ActorApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext app = SpringApplication.run(PyxApplication.class, args);
+		ApplicationContext app = SpringApplication.run(ActorApplication.class, args);
 		SpringContextUtil.setApplicationContext(app);
 	}
 }
