@@ -1,5 +1,5 @@
 # 前沿
-简介：springboot-mapper-redis是一个基于Spring Boot & MyBatis & redis种子系统，用于快速构建中小型API、RESTful API项目。  
+简介：springboot-mapper-redis是一个基于Spring Boot & MyBatis & redis的maven种子系统，用于快速构建中小型API、RESTful API项目。  
 主要版本：springboot采用2.x版本、mybatis3.4X版本、通用mapper使用4.X版本
 
 # 文档说明
@@ -15,7 +15,7 @@
 9、定时器scheduling的使用  
 10、系统日志的记录，可根据日志级别，打印sql日志，用于快速线上定位问题  
 11、引入HuTool作为通用工具包  
-
+12、阿里云短信工具  
 # 码上开始
 1、clone项目  
 2、修改coreconstant里的常量  
@@ -42,8 +42,8 @@
 5、建议使用的eclipse里的api插件工具，生成统一风格文档，保证代码的规范性  
 
 # 特别感谢
-框架是站在“巨人”的肩膀上诞生的，特别感谢通用mapper的原作者（@土豆lihengming），框架最初很多借鉴了他的种子框架，  
-尤其是代码生成部分，自己只在其基础上做了些许修改，而其开源的通用mapper更是大大节约了我这种低端码农的开发工作量，  
+框架是站在“巨人”的肩膀上诞生的，特别感谢通用mapper的原作者（@土豆lihengming），框架最初很多借鉴了他的种子框架,
+尤其是代码生成部分，自己只在其基础上做了些许修改，而其开源的通用mapper更是大大节约了我这种低端码农的开发工作量，
 有更多的时间约妹打球啦哈哈哈哈。  
 
 #温馨提示
