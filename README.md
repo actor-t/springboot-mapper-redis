@@ -53,4 +53,5 @@
 如有疑虑欢迎咨询qq：2411559022
 
 #如果您觉得可以，来一支1916抽抽哈哈
-<div align=center><img width="150" height="150" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
+<div align=center><img width="150" height="150" src="springboot-mapper-redis/src/test/java/s/微信.jpg"/>
+<img width="150" height="150" src="springboot-mapper-redis/src/test/java/s/支付宝.jpg"/></div>
