@@ -44,7 +44,7 @@
 
 # 特别感谢
 框架是站在“巨人”的肩膀上诞生的，特别感谢通用mapper的原作者（@土豆lihengming），框架最初很多借鉴了他的种子框架,
-尤其是代码生成部分，自己只在其基础上做了些许修改，而其开源的通用mapper更是大大节约了我这种低端码农的开发工作量，
+尤其是代码生成部分，这部风自己只在其基础上做了些许修改，而其开源的通用mapper更是大大节约了我这种低端码农的开发工作量，
 有更多的时间约妹打球啦哈哈哈哈。  
 经过一年多的项目实践，更新迭代了mapper版本，丰富了工具类和通用服务方法、引入了socket和阿里云短信、itexpdf工具、加入了redis缓存框架等；
 
@@ -53,6 +53,6 @@
 [项目地址](https://github.com/actor-t/springboot-mapper-redis)  
 如有疑虑欢迎咨询qq：2411559022  
 
-### 如果您觉得可以，来一支1916抽抽哈哈  
+### 来根烟抽抽  
 <div align=center><img width="400" height="400" src="https://github.com/actor-t/springboot-mapper-redis/blob/master/src/test/java/s/%E5%BE%AE%E4%BF%A1.jpg"/>
 <img width="400" height="400" src="https://github.com/actor-t/springboot-mapper-redis/blob/master/src/test/java/s/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg"/></div>
