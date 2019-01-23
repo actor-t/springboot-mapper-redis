@@ -24,6 +24,24 @@ spring:
     multipart:
       max-file-size: 45Mb
       max-request-size: 45Mb
+  mail:
+    protocol: smtp
+    host: smtp.qq.com
+    username: 2411559022@qq.com
+    password: pgkptxwqpnyhdihc
+    default-encoding: UTF-8
+    properties:
+      mail:
+        port: 465
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: 465
+            fallback: false
 mybatis:
   configuration:
     map-underscore-to-camel-case: true

@@ -170,6 +170,43 @@
 			<artifactId>aliyun-sdk-mns</artifactId>
 			<version>1.1.8.4</version>
 		</dependency>
+		<!-- 定时任务 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-quartz</artifactId>
+		</dependency>
+		<!--PDF https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>5.5.13</version>
+		</dependency>
+		<!--PDFxmlworker https://mvnrepository.com/artifact/com.itextpdf.tool/xmlworker -->
+		<!-- <dependency> <groupId>com.itextpdf.tool</groupId> <artifactId>xmlworker</artifactId> 
+			<version>5.5.13</version> </dependency> -->
+		<!--输出中文 https://mvnrepository.com/artifact/com.itextpdf/itext-asian -->
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itext-asian</artifactId>
+			<version>5.2.0</version>
+		</dependency>
+
+		<!-- 添加spring-boot-starter-mail包引用 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<!-- end -->
+		<!-- 微信小程序加密解密包 -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.59</version>
+		</dependency>
 		<!-- end -->
 	</dependencies>
 
