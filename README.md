@@ -1,7 +1,7 @@
 # 前言
 简介：springboot-mapper-redis是一个基于Spring Boot & MyBatis & redis的maven种子系统，用于快速构建中小型API、RESTful API项目。  
-主要版本：springboot采用2.x版本、mybatis3.4X版本、通用mapper使用4.X版本
-
+主要版本：springboot采用2.x版本、mybatis3.4X版本、通用mapper使用4.X版本  
+看完记得点赞噢~~~
 # 文档说明
 1、集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL，可以说学会使用这套架构将节约你百分之五十的开发时间！  
 2、集成Druid数据库连接池与监控，默认用户名admin、密码123456，用于监控业务系统的sql使用情况等  
