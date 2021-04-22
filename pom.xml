@@ -98,7 +98,7 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
-			<version>3.4.6</version>
+			<version>3.5.6</version>
 		</dependency>
 		<!-- 通用mapper的集成 https://mvnrepository.com/artifact/tk.mybatis/mapper-spring-boot-starter -->
 		<dependency>
